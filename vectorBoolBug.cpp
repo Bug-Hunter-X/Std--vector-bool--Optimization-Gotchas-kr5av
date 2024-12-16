@@ -1,0 +1,1 @@
+std::vector<bool> is not the same as a `bool[]` array.  It uses a bitset internally for memory efficiency but has different access and iteration behavior that can lead to unexpected issues.  Direct indexing and pointer arithmetic may not work as expected, and it may be slower in some cases than a `bool[]` array. This is often missed in C++ beginner programs. 
